@@ -1,0 +1,28 @@
+# Ignore build results
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore temporary files
+*.log
+*.tmp
+*.userprefs
+
+# Ignore Rider IDE files
+.idea/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore dotnet-generated secrets
+secrets.json
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
