@@ -51,8 +51,7 @@ namespace exercism.tasks
                 // Handle dash-case to camelCase
                 if (c == '-' && i + 1 < identifier.Length && char.IsLetter(identifier[i + 1]))
                 {
-                    sb.Append(char.ToUpper(identifier[i + 1]));
-                    i++; // skip the next character since it's now appended
+                    sb.Append(char.ToUpper(identifier[++i]));
                     continue;
                 }
 

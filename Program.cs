@@ -1,4 +1,5 @@
-﻿using System;
+﻿using exercism.tasks;
+using System;
 
 namespace exercism
 {
@@ -7,7 +8,6 @@ namespace exercism
         static void Main(string[] args)
         {
             string result = string.Empty;
-
             Console.WriteLine(result);
             Console.ReadLine();
         }

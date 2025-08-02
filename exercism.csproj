@@ -49,6 +49,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tasks\QuestLogic.cs" />
+    <Compile Include="tasks\RemoteControlCar.cs" />
     <Compile Include="tasks\SecurityPassMaker.cs" />
   </ItemGroup>
   <ItemGroup>
