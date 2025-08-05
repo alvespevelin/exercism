@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="tasks\Authenticator.cs" />
     <Compile Include="tasks\BirdCount.cs" />
     <Compile Include="tasks\Identifier.cs" />
     <Compile Include="tasks\Lasagna.cs" />
